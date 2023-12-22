@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  background-color: #fefefe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: lato;
+}
+.inside-card {
+  background-color: #ffffff;
+  box-shadow: 0 0 10px 1px #ccc;
+  padding: 20px;
+  width: 600px;
+}
+.nameee,
+.gnb {
+  display: flex;
+  gap: 20px;
+  /* justify-content: space-between; */
+  /* width: 100%; */
+  /* border: 1px solid red; */
+  margin-bottom: 20px;
+}
+
+.firstname {
+  flex: 50%;
+  /* border: 1px solid gold; */
+}
+.lastname {
+  flex: 50%;
+  /* border: 1px solid yellow; */
+}
+.gender {
+  flex: 50%;
+  /* border: 1px solid green; */
+}
+.DOB {
+  flex: 50%;
+}
+
+.input1,
+.input2,
+.input3,
+.input4 {
+  padding: 15px 10px;
+  width: 100%;
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+.box {
+  margin: 20px 0;
+}
+
+.button1 {
+  padding: 15px 40px;
+  width: 100%;
+  color: #ffffff;
+  background-color: #7376c6;
+  border: none;
+  margin-bottom: 20px;
+}
+.unseen-downtext {
+  margin: 20px 0;
+}
+
+.smalltext {
+  text-align: center;
+}
